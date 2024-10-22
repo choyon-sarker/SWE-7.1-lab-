@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.FindMaxView">
+    tools:context=".model.FindMaxModel">
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,6 +26,7 @@
             android:layout_height="wrap_content"
             android:text="First Number : "/>
         <EditText
+            android:id="@+id/firstNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter first number"/>
@@ -41,6 +42,7 @@
             android:layout_height="wrap_content"
             android:text="Second Number : "/>
         <EditText
+            android:id="@+id/secondNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter second number"/>
@@ -56,11 +58,35 @@
             android:layout_height="wrap_content"
             android:text="Third Number : "/>
         <EditText
+            android:id="@+id/thirdNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter third number"/>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result : "/>
+        <TextView
+            android:id="@+id/ansFindMax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
     <Button
+        android:id="@+id/btnFindMax1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Click"

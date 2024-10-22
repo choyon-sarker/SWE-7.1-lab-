@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.devdroid.architecturalpattern.model.FindMaxModel
 import com.devdroid.architecturalpattern.R
 import com.devdroid.architecturalpattern.model.AdditionModel
 
@@ -23,6 +24,11 @@ class MainActivity : AppCompatActivity() {
         val btnAddition:Button=findViewById(R.id.btnAddition)
         btnAddition.setOnClickListener {
             val i=Intent(this, AdditionModel::class.java)
+            startActivity(i)
+        }
+        val btnFindMax:Button=findViewById(R.id.btnFindMax)
+        btnFindMax.setOnClickListener {
+            val i=Intent(this, FindMaxModel::class.java)
             startActivity(i)
         }
     }

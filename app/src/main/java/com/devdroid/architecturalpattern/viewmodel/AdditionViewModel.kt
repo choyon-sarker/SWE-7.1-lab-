@@ -1,6 +1,6 @@
 package com.devdroid.architecturalpattern.viewmodel
 
-class AdditionFunction {
+class AdditionViewModel {
     fun AddTwoNumber(x: Int, y: Int): Int {
         return x + y
     }

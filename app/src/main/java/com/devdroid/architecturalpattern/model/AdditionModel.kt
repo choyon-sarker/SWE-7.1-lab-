@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.devdroid.architecturalpattern.R
-import com.devdroid.architecturalpattern.viewmodel.AdditionFunction
+import com.devdroid.architecturalpattern.viewmodel.AdditionViewModel
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
@@ -43,7 +43,7 @@ class AdditionModel : AppCompatActivity() {
 
             //val add=AdditionFunction(AddTwoNumber(firstNumber.toInt(),secondNumber.toInt()))
             //val add=AddTwoNumber(firstNumber.toInt(),secondNumber.toInt())
-            val add=AdditionFunction().AddTwoNumber(firstNumber.toInt(),secondNumber.toInt())
+            val add=AdditionViewModel().AddTwoNumber(firstNumber.toInt(),secondNumber.toInt())
             answer.text=add.toString()
             val answerValue=answer.text.toString()
 
