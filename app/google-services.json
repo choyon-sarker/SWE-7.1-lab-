@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "800660028946",
+    "project_id": "architecturalpattern71",
+    "storage_bucket": "architecturalpattern71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800660028946:android:2eff968ca4b4fb75e062cb",
+        "android_client_info": {
+          "package_name": "com.devdroid.architecturalpattern"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVvQfF0JGOwTyc01paydvJGqnbSqVkI_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
